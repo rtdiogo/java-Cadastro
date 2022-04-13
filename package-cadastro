@@ -1,0 +1,42 @@
+
+package cesmac.prova;
+
+public final class Advogado {
+
+    private String nome;
+    private String sexo;
+    private String oab;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public String getOab() {
+        return oab;
+    }
+
+    public Advogado(String nome, String sexo, String OAB) {
+        this.nome = nome;
+        this.sexo = sexo;
+        this.oab = OAB;
+        
+        
+        
+    }
+}
+
+package cesmac.prova;
+
+
+public class AdvogadoOAB {
+
+    public static void main(String[] args){
+        Advogado Diogo = new Advogado("Diogo", "M", "001");
+        System.out.println(Diogo);
+ }
+}
+
